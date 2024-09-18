@@ -20,7 +20,10 @@ print(hello_message)
 # Assign the string "cowboy joe" to a variable, and print that variable with title casing
 
 joe_variable = "cowboy joe"
-print(joe_variable.capitalize)
+
+joe_variable = joe_variable.capitalize
+
+print(joe_variable)
 
 # Complete the following f-string print message 
     # You will need to create your own variables and insert them  
@@ -33,8 +36,8 @@ print(f"The {variable1} was founded in {variable2}")
 
 # Now let's do some math with variables 
     # Create two variables x and y and assign them the values 5 and 10 respectively 
-    x = 5
-    y = 10
+x = 5
+y = 10
 
     # Complete the following print statements using your variables
     #All math must be done within the braces in the f-strings
@@ -49,8 +52,11 @@ print(f"x / y = {your_variable_here}")
     # It is done using the + operator
     # Create three variables:
         # first_name, which is your first name 
-        first_name = "Daniel"
+first_name = "Daniel"
         # last_name, which is your last name
-        last_name = 
+last_name = "Keuning"
         # space, which is a space character 
+space = " "
     # Use string concatenation to print out your full name 
+
+print(first_name + space + last_name)
