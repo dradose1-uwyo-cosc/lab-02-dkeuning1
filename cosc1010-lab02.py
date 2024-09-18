@@ -3,8 +3,7 @@
 # 9/17/2024
 # Lab 02 
 # Lab Section: 16
-# Sources, people worked with, help given to: 
-
+# Sources, people worked with, help given to: Matt Curl
 
 your_variable_here = "when you see this, replace it with your code"
 
@@ -21,7 +20,7 @@ print(hello_message)
 
 joe_variable = "cowboy joe"
 
-print(joe_variable.capitalize)
+print(joe_variable.title())
 
 # Complete the following f-string print message 
     # You will need to create your own variables and insert them  
