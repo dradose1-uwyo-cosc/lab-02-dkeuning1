@@ -21,9 +21,7 @@ print(hello_message)
 
 joe_variable = "cowboy joe"
 
-joe_variable = joe_variable.capitalize
-
-print(joe_variable)
+print(joe_variable.capitalize)
 
 # Complete the following f-string print message 
     # You will need to create your own variables and insert them  
@@ -41,10 +39,10 @@ y = 10
 
     # Complete the following print statements using your variables
     #All math must be done within the braces in the f-strings
-print(f"x + y = {your_variable_here}")
-print(f"x - y = {your_variable_here}")
-print(f"x * y = {your_variable_here}")
-print(f"x / y = {your_variable_here}")
+print(f"x + y = {x+y}")
+print(f"x - y = {x-y}")
+print(f"x * y = {x*y}")
+print(f"x / y = {x/y}")
 
 # String concatenation 
     # Finally we will take a look at string concatenation
